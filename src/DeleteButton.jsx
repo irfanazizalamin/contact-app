@@ -1,8 +1,13 @@
-import React from 'react'
+import PropTypes from 'prop-types';
+
+DeleteButton.propTypes = {
+  id: PropTypes.number.isRequired,
+  onDelete: PropTypes.func.isRequired
+}
 
 /**
  * 
- * @param {String} id
+ * @param {Number} id
  * @param {Function} onDelete
  * @returns 
  */

@@ -1,4 +1,9 @@
-import React from 'react'
+import PropTypes from 'prop-types';
+
+ContactItemBody.propTypes = {
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired
+}
 
 export default function ContactItemBody({name, tag}) {
   return (

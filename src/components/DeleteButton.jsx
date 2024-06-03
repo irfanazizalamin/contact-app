@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 DeleteButton.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   onDelete: PropTypes.func.isRequired
 }
 
